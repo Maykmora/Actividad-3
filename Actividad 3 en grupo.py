@@ -34,8 +34,12 @@ while True:
             if op3==1:
                 km=int(input("Ingrese la cantidad de kilometrtos que desea convertir a metros"))
                 conv2= (km*1000)
-
-
+            elif op3 ==2:
+                meters=int(input("Ingrese la cantidad de metros que desea convertir a metros"))
+                conv3= (meters/1000)
+                print(f"{meters} metros es equivalente a {conv3}  kilometros")
+            elif op3 ==3:
+                print("Regresando al menu")
 
 
 
