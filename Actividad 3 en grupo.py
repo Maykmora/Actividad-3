@@ -10,6 +10,14 @@ while True:
             print("1.Convertir Fahrenheit a Celsius")
             print("2.Convertir de Celsius a Fahrenheit")
             print("3.salir")
+            op2=int(input("Ingrese el numero de opcion que desea seleccionar:"))
+            if op2==1:
+                fa=int(input("Ingrese la cantidad de grados Fahrenheit para convertir:"))
+
+            if op2==2:
+                ce=int(input("Ingrese la cantidad de grados Celsius para convertir:"))
+
+
 
 
 
