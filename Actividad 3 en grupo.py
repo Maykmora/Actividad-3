@@ -26,25 +26,25 @@ while True:
                 break
             else:
                 print("Ingrese valores validos")
-                break
     elif op==2:
         while True:
             print("1.Convertir de Kilometros a Metros")
             print("2.Convertir de Metros a Kilometros")
-            print("3. salir")
-            op3=int(input("Ingrese el numero de opcion que desea seleccionar"))
+            print("3.Salir")
+            op3=int(input("Ingrese el numero de opcion que desea seleccionar:"))
             if op3==1:
-                km=int(input("Ingrese la cantidad de kilometros que desea convertir a metros"))
-                conv2= (km*1000)
+                km=int(input("Ingrese la cantidad de Kilometros que desea convertir a Metros:"))
+                conv= (km*1000)
+                print(f"{km} Kilometros es equivalente a {conv} Metros")
             elif op3 ==2:
-                metros =int(input("Ingrese la cantidad de metros que desea convertir a kilometros"))
-                conv3= (metros/1000)
-                print(f"{metros} metros es equivalente a {conv3}  kilometros")
+                metros =int(input("Ingrese la cantidad de Metros que desea convertir a Kilometros:"))
+                conv= (metros/1000)
+                print(f"{metros} Metros es equivalente a {conv} Kilometros")
             elif op3 ==3:
                 print("Regresando al menu")
+                break
             else:
                 print("Ingrese valores validos")
-                break
 
     elif op==3:
         print("Muchas gracias por haber usado el programa, feliz día")
