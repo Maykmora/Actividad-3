@@ -1,4 +1,5 @@
 #Maynor Eduardo Morales Chang- 1553025
+#Santos Juan Diego Chuc Gutiérrez - 1532825
 while True:
     print("Bienvenido a el programa de conversion de unidades de medida")
     print("1.Conversion de unidades de temperatura")
