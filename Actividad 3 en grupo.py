@@ -14,12 +14,13 @@ while True:
             print("3.salir")
             op2=int(input("Ingrese el numero de opcion que desea seleccionar:"))
             if op2==1:
-                fa=int(input("Ingrese la cantidad de grados Fahrenheit para convertir:"))
+                fa=float(input("Ingrese la cantidad de grados Fahrenheit para convertir:"))
                 conv=(fa-32)/1.8
                 print(f"{fa} grados Fahrenheit es equivalente a {conv} grados Celcius")
-
             elif op2==2:
-                ce=int(input("Ingrese la cantidad de grados Celsius para convertir:"))
+                ce=float(input("Ingrese la cantidad de grados Celsius para convertir:"))
+                conv=(ce*1.8)+32
+                print(f"{ce} grados Fahrenheit es equivalente a {conv} grados Celcius")
             elif op2==3:
                 print("Regresando al menú")
                 break
@@ -44,6 +45,10 @@ while True:
             else:
                 print("Ingrese valores validos")
                 break
+
+    elif op==3:
+        print("Muchas gracias por haber usado el programa, feliz día")
+        break
 
 
 
