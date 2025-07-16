@@ -1,4 +1,5 @@
 #Maynor Eduardo Morales Chang- 1553025
+#Santos Juan Diego Chuc Gutiérrez - 1532825
 while True:
     print("Bienvenido a el programa de conversion de unidades de medida")
     print("1.Conversion de unidades de temperatura")
@@ -29,6 +30,20 @@ while True:
         while True:
             print("1.Convertir de Kilometros a Metros")
             print("2.Convertir de Metros a Kilometros")
+            print("3. salir")
+            op3=int(input("Ingrese el numero de opcion que desea seleccionar"))
+            if op3==1:
+                km=int(input("Ingrese la cantidad de kilometros que desea convertir a metros"))
+                conv2= (km*1000)
+            elif op3 ==2:
+                metros =int(input("Ingrese la cantidad de metros que desea convertir a kilometros"))
+                conv3= (metros/1000)
+                print(f"{metros} metros es equivalente a {conv3}  kilometros")
+            elif op3 ==3:
+                print("Regresando al menu")
+            else:
+                print("Ingrese valores validos")
+                break
 
 
 
