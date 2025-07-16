@@ -40,7 +40,9 @@ while True:
                 print(f"{meters} metros es equivalente a {conv3}  kilometros")
             elif op3 ==3:
                 print("Regresando al menu")
-
+            else:
+                print("Ingrese valores validos")
+                break
 
 
 
